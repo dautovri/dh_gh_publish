@@ -1,2 +1,4 @@
-# dh_gh_publish
-Publish Dockerfile in GitHub registry and Docker
+# DockerHub + GitHub Dockerfiles publishing workflow 
+
+Simple Dockerfile 
+Actions to publish to GH and DH 
