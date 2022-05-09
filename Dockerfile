@@ -1,4 +1,3 @@
-
 #FROM - Image to start building on.
 FROM ubuntu:20.04
 
