@@ -1,7 +1,6 @@
 #FROM - Image to start building on.
 FROM ubuntu:22.04
 
-
 #MAINTAINER - Identifies the maintainer of the dockerfile.
 MAINTAINER dautov2@gmail.com
 
