@@ -4,9 +4,10 @@ FROM ubuntu:22.04
 #MAINTAINER - Identifies the maintainer of the dockerfile.
 MAINTAINER dautov2@gmail.com
 
-RUN set -xe \
-    && apk add --no-cache curl python3 \
-    && curl -sSL https://bootstrap.pypa.io/get-pip.py | python3
+FROM python:3
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir nibabel pydicom matplotlib pillow med2image
 
 #RUN - Runs a command in the container
 RUN echo "Hello world" > /tmp/hello_world.txt
